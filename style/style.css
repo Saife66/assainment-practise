@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* similar css */
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    padding: 20px 33px;
+    border-radius: 8px;
+background: #E55473;
+color: #FFF;
+border: none;
+
+
+}
+.read{
+    color: #E55473;
+}
+
+.title{
+    font-size: 40px;
+font-weight: 800;
+}
+/* header style */
+
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.headercontainer{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding:0px 250px;
+}
+
+.headercontent{
+
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+}
+.bannertitle{
+    color: #272727;
+font-size: 60px;
+font-weight: 800;
+
+}
+.bannerdescription{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 20px;
+font-weight: 400;
+width: 634px;
+
+}
+.bannerbtn{
+    
+    font-size: 17px;
+    font-weight: 700;
+    width: 177px;
+}
+
+.bg-img{
+    padding: 50px 0px 0px 110px;
+    width: 635px;
+height: 800px;
+}
+
+/* feature container */
+
+.featurecontainer{
+    padding:0px 240px ;
+}
+.featurecontent{
+    width: 594px;
+    margin: auto;
+    text-align: center;
+}
+.featuretitle{
+font-size: 40px;
+font-weight: 800;
+margin-top: 170px;
+
+}
+.featuredescription{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+    margin-top: 24px;
+}
+
+/* flower */
+
+.flowercontainer{
+    display: flex;
+justify-content: space-between;
+align-items:end;
+margin: 48px 0px 32px 0px ;
+
+}
+
+.flowercontainer img{
+    bottom: 0px;
+}
+.flower1{
+background: rgba(167, 33, 98, 0.15);
+border-radius: 300px 300px 0px 0px;
+width: 464px;
+height: 538px;
+background-image: url('/asset/pngwing\ 6.png');
+background-repeat: no-repeat;
+background-position: bottom;
+    
+}
+.flower2{ 
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+height: 538px;
+background-image: url('/asset/pngwing\ 5.png');
+background-repeat: no-repeat;
+background-position: bottom;
+}
+.flower3{
+background: rgba(71, 125, 17, 0.15);
+border-radius: 300px 300px 0px 0px;
+
+width: 464px;
+height: 538px;
+background-image: url('/asset/pngwing\ 7.png');
+background-repeat: no-repeat;
+background-position: bottom;
+
+}
+.fldescription{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #4e4949;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+/* floower bottom */
+
+.iconcontainer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+
+padding: 86px 175px ;
+text-align: center;
+margin: 128px 0px;
+}
+
+.dealcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+text-align: center;
+
+}
+.dealcontent{
+    padding-left: 100px;
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+
+.deal-img{
+    width: 318px;
+height: 420px;
+padding: 100px 0px;
+margin-left: -200px;
+}
+
+/* inta section */
+.instagramflower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px ;
+    margin-top: 48px;
+
+}
+.instagramflower img{
+    width: 342px;
+height: 396px;
+
+}
+
+/* subscribe */
+.subscription{
+    background-image: url('/asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 128px 0px;
+    padding: 122px 0px;
+}
+.coupon{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.coupontitle{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+
+}
+.coupondescription{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+margin-bottom: 48px;
+}
+.emailsubmit{
+    display: flex;
+    gap: 16px;
+    width: 55%;
+margin: auto;
+text-align: center;
+}
+input{
+    width: 700px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.emailsubmit input[type="email"] {
+    
+color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight: 400;
+padding: 10px 0px 10px 22px;
+
+}
+
+.subbtn{
+    width: 150px;
+font-size: 20px;
+font-weight: 700;
+
+}
+
+/* footer */
+.footercontainer{
+    background: #111010;
+    padding: 128px 648px;
+    text-align: center;
+}
+.footer-title {
+    color: #FFFFFF;
+}
+.footerdescription{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 625px;
+margin-top:24px ;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+margin-top:32px ;
+}
